@@ -54,22 +54,6 @@ function validacao_nome_login(){
 
 
 
-// document.querySelector("#id_do_input").addEventListener('input', (e) => {
-//     console.log(e.target.value)
-//     })
-
-
-// var regex = /^[A-Z-']+$/;
-
-// function validacao_nome_login(){
-//     nomeCadastro.forEach(nome => {
-//         let valido = nome.split(/ +/).every(parte => regex.test(parte));
-//         console.log(`${nome} = ${valido ? 'válido': 'inválido'}`);
-//     });
-
-// }
-
-
 
 
 
