@@ -1,0 +1,35 @@
+
+<!-- Próxima entrega: Tela de cadastro com:           Nome:, CPF:, Endereço: (buscando por CEP), e-mail e validando TODAS as informações antes de salvar. entrega 23/05/2022 -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/app.js"></script>
+    <title>Validações</title>
+</head>
+<body>
+    <div class="conteudo">
+        <div class="subconteudo">
+            <form id="form_validacaos">
+                <h1>Validacao</h1>
+                <label>Nome</label>
+                <input type="text" onkeyup="validacao_nome_login()"  name="input_nome" id="ipt_nome_login" placeholder="Digite seu Nome" value="" required>
+                <label>CPF</label>
+                <input type="text" oninput="validarCPF(this)" type="text" onkeyup="validacao_cpf_login()" name="input_cpf" id="ipt_cpf_login"  placeholder="Digite seu CPF.." required>
+                <label>Endereço</label>
+                <input type="text" name="input_endereco" id="ipt_endereco_login" placeholder="Digite seu endereco" required>
+                <label>E-mail:</label>
+                <input type="text" onkeyup="validacao_email_login()" name="input_email" id="ipt_email_login" placeholder="Digite sue email..." required>
+                <div class="botao">
+                    <button id="bt_enviar">Enviar</button>
+                </div>
+
+            </div>
+        </div>
+    </form>
+</body>
+</html>
